@@ -2,7 +2,7 @@
 
 ---
 
-## 📋 Problem Statement (summary)
+## 📋 Problem Statement
 
 You need to process a list of jobs based on the processing time of each job, the priority of each job, and the total time allowed. Every job is represented by a Job object, in which ProcessingTime is the time in seconds, and Priority is an integer where a lower number means a higher priority, for example:
 { ProcessingTime = 10, Priority = 3 }.
