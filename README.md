@@ -9,13 +9,13 @@ You need to process a list of jobs based on the processing time of each job, the
 
 Given that each priority is unique, schedule the jobs according to the following rules:
 
-Only one job can run at a time
+1. Only one job can run at a time
 
-Jobs with higher priorities are picked first
+2. Jobs with higher priorities are picked first
 
-Jobs with a processing time greater than the remaining available time should be skipped
+3. Jobs with a processing time greater than the remaining available time should be skipped
 
-The maximum number of jobs that can be completed should be picked, while satisfying the rules above.
+4. The maximum number of jobs that can be completed should be picked, while satisfying the rules above.
 
 Implement the GetTotalTime method, which takes a List of jobs and the total time allowed, and returns the total processing time of the completed jobs.
 
